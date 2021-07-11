@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="266.0" style="-fx-background-color: #4ecc53;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tampilan.TambahPanenController">
+   <children>
+      <TextField fx:id="Tanaman" layoutX="24.0" layoutY="92.0" prefHeight="25.0" prefWidth="214.0" promptText="Tanaman" style="-fx-background-radius: 10; -fx-border-color: #b6cfa1; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Label layoutX="24.0" layoutY="61.0" text="Masukkan hasil panen anda.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="40.0" text="TAMBAH PANEN" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Jumlah" layoutX="24.0" layoutY="128.0" prefHeight="25.0" prefWidth="214.0" promptText="Jumlah (Kg)" style="-fx-background-radius: 10; -fx-border-color: #b6cfa1; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Button layoutX="174.0" layoutY="168.0" mnemonicParsing="false" onAction="#handleButtonTambahTanaman" style="-fx-background-radius: 10; -fx-background-color: #ffff; -fx-border-color: #ffff; -fx-border-radius: 10;" text="Tambah" textFill="#4ecc53">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

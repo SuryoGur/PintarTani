@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="225.0" prefWidth="266.0" style="-fx-background-color: #4ecc53;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tampilan.TambahTanamController">
+   <children>
+      <TextField fx:id="Tanaman" layoutX="26.0" layoutY="64.0" prefHeight="25.0" prefWidth="214.0" promptText="Tanaman" style="-fx-background-radius: 10; -fx-border-color: #b6cfa1; -fx-border-radius: 10; -fx-border-width: 2;" />
+      <Label layoutX="26.0" layoutY="32.0" text="Tambah Tanaman" underline="true">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="176.0" layoutY="178.0" mnemonicParsing="false" onAction="#handleButtonTambahTanam" style="-fx-background-radius: 10; -fx-background-color: #ffff; -fx-border-color: #ffff; -fx-border-radius: 10;" text="Tambah" textFill="#4ecc53">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="Panen" layoutX="26.0" layoutY="100.0" prefHeight="25.0" prefWidth="214.0" promptText="Tanam" />
+      <DatePicker fx:id="Tanam" layoutX="26.0" layoutY="135.0" prefHeight="25.0" prefWidth="214.0" promptText="Panen" />
+   </children>
+</AnchorPane>

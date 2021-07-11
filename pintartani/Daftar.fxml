@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pintartani.DaftarController">
+   <children>
+      <ImageView fitHeight="455.0" fitWidth="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Gambar/SignupForm.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="nama" layoutX="359.0" layoutY="111.0" prefHeight="40.0" prefWidth="238.0" promptText="Nama Lengkap" style="-fx-background-radius: 15; -fx-border-color: #4ecc53; -fx-border-radius: 15; -fx-border-width: 2;" />
+      <TextField fx:id="user" layoutX="359.0" layoutY="170.0" prefHeight="40.0" prefWidth="238.0" promptText="Username" style="-fx-background-radius: 15; -fx-border-color: #4ecc53; -fx-border-radius: 15; -fx-border-width: 2;" />
+      <TextField fx:id="alamat" layoutX="359.0" layoutY="229.0" prefHeight="40.0" prefWidth="238.0" promptText="Alamat" style="-fx-background-radius: 15; -fx-border-color: #4ecc53; -fx-border-radius: 15; -fx-border-width: 2;" />
+      <PasswordField fx:id="pass" layoutX="359.0" layoutY="289.0" prefHeight="40.0" prefWidth="238.0" promptText="Password" style="-fx-background-radius: 15; -fx-border-color: #4ecc53; -fx-border-radius: 15; -fx-border-width: 2;" />
+      <Button layoutX="429.0" layoutY="351.0" onAction="#handleButtonDaftar" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: #4ECC53; -fx-background-radius: 12,5;" text="DAFTAR" textFill="WHITE">
+         <font>
+            <Font name="Roboto Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="507.0" layoutY="405.0" mnemonicParsing="false" onAction="#handleButtonMasuk" style="-fx-background-color: transparent;" text="Masuk" textFill="#4ecc53">
+         <font>
+            <Font name="Roboto Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
