@@ -1,0 +1,2 @@
+# PintarTani
+Aplikasi pintar bertani merupakan sistem perangkat lunak yang dibuat untuk meningkatkan efektivitas kerja petani. Seperti, mencatat hasil pertanian dengan lebih efisien, menyediakan informasi pertanian melalui rekomendasi dan interaksi forum, serta menjembatani komunikasi antara para petani dengan penyuluh pertanian atau pemerintah daerah agar dapat melancarkan pemecahan masalah pertanian.
